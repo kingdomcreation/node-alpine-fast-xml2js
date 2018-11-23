@@ -19,3 +19,9 @@ RUN npm install
 The package was added to `/usr/local/lib/node_modules/` and requires no other dependencies to parse *XML* into a valid *JSON* object. The function `parseString` is a in-place replacement of xml2js parseString. 
 
 For more information check out [fast-xml2js](https://www.npmjs.com/package/fast-xml2js) and [xml2js](https://www.npmjs.com/package/xml2js) for more details.
+
+| Software      | Version 
+|---------------|-----------
+| Node.js       | 11.2.0
+| Yarn          | 1.12.3
+| fast-xml2js   | 1.0.8
