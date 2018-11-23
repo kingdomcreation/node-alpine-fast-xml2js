@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:8.12-alpine
 
 RUN apk add --no-cache --virtual .build-deps \
         binutils-gold \
@@ -17,7 +17,7 @@ RUN apk add --no-cache --virtual .build-deps \
     && rm -rf .gnupg \
     && rm -rf /tmp/* \
     && rm -rf /var/cache/apk/* \
-    && npm cache clear \
+    && npm cache clear --force \
     && apk del .build-deps \
     && cd /usr/local/lib/node_modules/fast-xml2js \
     && rm binding.gyp \

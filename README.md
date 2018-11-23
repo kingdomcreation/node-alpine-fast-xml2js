@@ -22,6 +22,6 @@ For more information check out [fast-xml2js](https://www.npmjs.com/package/fast-
 
 | Software      | Version 
 |---------------|-----------
-| Node.js       | 11.2.0
+| Node.js       | 8.12.0
 | Yarn          | 1.12.3
 | fast-xml2js   | 1.0.8
